@@ -10,8 +10,8 @@ class ExternalService {
     private static $instance;
     private $options = [];
     private $url = 'https://www.become.co/api/rest/test/';
-    private $username = 'tzinch';
-    private $password = 'r#eD21mA%gNU';
+    private $username = <username>;
+    private $password = <password>;
     private $headers = [
         'Accept: application/json',
         'Content-Type: application/json',
